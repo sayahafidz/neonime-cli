@@ -25,3 +25,5 @@ pilih nomor dari anime yang ingin di download
 
 
 ![overview](3.png)
+
+output dari anime akan berada pada folder Anime/
