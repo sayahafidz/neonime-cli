@@ -8,6 +8,12 @@ silahkan download python pada link dibawah
 
 [python 3.7 32bit](https://www.python.org/ftp/python/3.7.9/python-3.7.9.exe)
 
+## download
+
+klik bagian release
+
+![overview](rilis.png)
+
 ## penggunaan
 
 ![overview](1.png)
