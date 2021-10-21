@@ -14,6 +14,14 @@ klik bagian release
 
 ![overview](rilis.png)
 
+atau kalian bisa clone repository ini
+
+masuk ke dalam foldernya, jangan lupa untuk jalankan ```pip install -r requirements.txt ```
+
+setelah itu tinggal jalanin ```python main.py ```
+
+output dari anime akan berada pada folder Anime/
+
 ## penggunaan
 
 ![overview](1.png)
@@ -25,5 +33,3 @@ pilih nomor dari anime yang ingin di download
 
 
 ![overview](3.png)
-
-output dari anime akan berada pada folder Anime/
