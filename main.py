@@ -3,7 +3,10 @@ import requests
 import subprocess
 from zippyshare_downloader import extract_info, extract_info_coro, download
 
+import os
+
 anime_link_list = []
+# folder = 'D:\\Downloads\\Video\\'
 folder = 'Anime\\'
 
 
@@ -47,3 +50,4 @@ def choose_anime():
 if __name__ == "__main__":
     show_animes()
     choose_anime()
+    print("file ada di " + os.getcwd() + "\\" + folder)
