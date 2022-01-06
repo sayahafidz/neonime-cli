@@ -6,12 +6,12 @@ from zippyshare_downloader import extract_info, extract_info_coro, download
 import os
 
 anime_link_list = []
-# folder = 'D:\\Downloads\\Video\\'
-folder = 'Anime\\'
+folder = 'D:\\Downloads\\Video\\'
+# folder = 'Anime\\'
 
 
 def show_animes():
-    html_text = requests.get('https://neonime.cc/').text
+    html_text = requests.get('https://neonime.co/').text
     soup = BeautifulSoup(html_text, 'lxml')
     animes = soup.find('div', class_='item_1 items')
     for index, anime in enumerate(animes):
