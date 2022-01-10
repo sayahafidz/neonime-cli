@@ -6,8 +6,8 @@ from zippyshare_downloader import extract_info, extract_info_coro, download
 import os
 
 anime_link_list = []
-folder = 'D:\\Downloads\\Video\\'
-# folder = 'Anime\\'
+# folder = 'D:\\Downloads\\Video\\'
+folder = 'Anime\\'
 
 
 def show_animes():
