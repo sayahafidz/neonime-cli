@@ -11,7 +11,7 @@ folder = 'Anime\\'
 
 
 def show_animes():
-    html_text = requests.get('https://neonime.co/').text
+    html_text = requests.get('https://neonime.cloud/').text
     soup = BeautifulSoup(html_text, 'lxml')
     animes = soup.find('div', class_='item_1 items')
     for index, anime in enumerate(animes):
